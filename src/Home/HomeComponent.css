@@ -1,0 +1,85 @@
+        
+.App-header {
+    padding: 40px;
+    color: white;
+  }
+  
+  .first-name{
+    color: #c73952;
+    font-size: 27px;
+  }
+  .and{
+    color: black;
+    font-size: 21px;
+  }
+  .second-name{
+    color: #f50000;
+    font-size: 27px;
+  }
+  .logo{
+    float: left;
+    width: 50px;
+    margin-left: 70px;
+  }
+  .header-buttons{
+    float: right;
+    margin-right: 80px;
+  }
+  .header-button{
+    margin-left: 30px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid blue;
+    border-radius: 25px;
+    color: black;
+  }
+  .header-button:active,.header-button:hover{
+    background-color: blue;
+    color: white;
+  }
+  .profile-image{
+    width: 50%;
+    padding-left: 100px;
+    float: left;
+  }
+  .profile-image img{
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+  }
+  .wedding-heading{
+    width: 42%;
+    float: right;
+  }
+  .wedding-heading p:nth-child(1){
+    margin-top: 164px;
+    margin-bottom: 10px;
+    font-size: 46px;
+    text-align: center;
+  }
+  .wedding-heading p:nth-child(2){
+    margin-top: 10px;
+    text-align: center;
+    font-size: 75px;
+    color: #bfbcbc;
+  }
+  .first-part:before{
+    width: 29vw;
+    content: " ";
+    background-image: url(../Images/shape1.svg);
+    position: absolute;
+    left: 0px;
+    top: -6px;
+    height: 19vw;
+  }
+
+  .first-part:after{
+    width: 31vw;
+    content: " ";
+    background-image: url(../Images/shape4.svg);
+    position: absolute;
+    right: 0px;
+    top: -6px;
+    height: 43vw;
+    z-index: 0;
+  }
